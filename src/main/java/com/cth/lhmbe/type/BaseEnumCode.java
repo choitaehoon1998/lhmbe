@@ -1,4 +1,4 @@
-package com.cth.lhmbe.Enum;
+package com.cth.lhmbe.type;
 
 public interface BaseEnumCode<T> {
 	T getValue();

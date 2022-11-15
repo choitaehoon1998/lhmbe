@@ -1,4 +1,4 @@
-package com.cth.lhmbe.Enum;
+package com.cth.lhmbe.type;
 
 import lombok.AllArgsConstructor;
 

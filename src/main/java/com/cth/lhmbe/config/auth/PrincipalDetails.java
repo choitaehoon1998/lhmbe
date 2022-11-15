@@ -1,7 +1,7 @@
 package com.cth.lhmbe.config.auth;
 
 
-import com.cth.lhmbe.Enum.RoleEnum;
+import com.cth.lhmbe.type.RoleEnum;
 import java.util.ArrayList;
 import java.util.Collection;
 import lombok.AllArgsConstructor;

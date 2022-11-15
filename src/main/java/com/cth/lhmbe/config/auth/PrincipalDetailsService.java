@@ -1,17 +1,15 @@
 package com.cth.lhmbe.config.auth;
 
-import com.cth.lhmbe.Enum.RoleEnum;
+import com.cth.lhmbe.type.RoleEnum;
 import com.cth.lhmbe.exceptions.StoreMemberMisMatchException;
 import com.cth.lhmbe.model.Member;
 import com.cth.lhmbe.model.StoreMember;
 import com.cth.lhmbe.repository.MemberRepository;
 import com.cth.lhmbe.repository.StoreMemberRepository;
-import java.util.Objects;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
